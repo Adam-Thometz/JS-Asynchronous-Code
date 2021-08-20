@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Promises exercises</title>
+</head>
+<body>
+    <h1>Promises exercises</h1>
+    <div class="exercise1">
+        <h3>Part 1</h3>
+        <label for="numbers">Type in the numbers you want. 
+            <small>Separate numbers with a comma</small></label>
+        <input type="text" id="numbers">
+        <button id="submitBtn">Submit</button>
+        <p id="errorList"></p>
+        <ul id="numsList"></ul>
+    </div>
+    <hr>
+    <div class="exercise2">
+        <h3>Part 2</h3>
+        <p id="deckStatus"></p>
+        <button id="shuffleDeck">Shuffle</button>
+        <button id="drawCard">Draw card</button>
+        <div id="cardHolder">
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+
+.exercise1 {
+    background-color: cyan;
+}
+
+#numsList {
+    text-align: left;
+}
+
+#numsList > li {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.exercise2 {
+    background-color: green;
+    color: rgb(245, 215, 204);
+}
+
+#card-holder {
+    margin-top: 80px;
+    position: relative;
+}
+
+#card-holder > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
